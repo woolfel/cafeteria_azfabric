@@ -25,9 +25,9 @@ public class GenerateTransactions {
     }
 
     public void loadData() {
-        String cafefile = "cafedata.json";
-        String regfile = "registers.json";
-        String empfile = "employees.json";
+        String cafefile = "samples/cafedata.json";
+        String regfile = "samples/registers.json";
+        String empfile = "samples/employees.json";
         try {
             cafe = mapper.readValue(new File(cafefile), Cafeteria.class);
             regs = mapper.readValue(new File(regfile), new TypeReference<List<CashRegister>>() { });
