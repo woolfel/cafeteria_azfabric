@@ -1,0 +1,16 @@
+{
+  "cafeteriaID" : "13b14078-95fa-4dd0-95e5-d294d4691104",
+  "name" : "University Commons",
+  "locationName" : "UMASS Amherst Campus",
+  "mapLocation" : null,
+  "cafeStores" : [ ],
+  "hours" : [ {
+    "open" : [ 7, 0 ],
+    "close" : [ 9, 0 ],
+    "name" : "breakfast"
+  }, {
+    "open" : [ 11, 0 ],
+    "close" : [ 20, 0 ],
+    "name" : "lunch and dinner"
+  } ]
+}

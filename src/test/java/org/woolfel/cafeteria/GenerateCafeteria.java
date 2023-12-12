@@ -1,6 +1,7 @@
 package org.woolfel.cafeteria;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationConfig;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.woolfel.cafeteria.model.*;
 
@@ -9,6 +10,8 @@ import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.math.BigDecimal;
 import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.UUID;
 
 public class GenerateCafeteria {
@@ -47,10 +50,10 @@ public class GenerateCafeteria {
         cafe.getHours().add(breakfast);
         cafe.getHours().add(lunchdinner);
 
-        Store italian = createItalian();
-        Store thai = createThai();
-        Store vietnam = createVietnamese();
-        Store diner = createDiner();
+        Store italian = createItalian(cafe.getCafeteriaID());
+        Store thai = createThai(cafe.getCafeteriaID());
+        Store vietnam = createVietnamese(cafe.getCafeteriaID());
+        Store diner = createDiner(cafe.getCafeteriaID());
 
         // set the hours for each store
         italian.getHours().add(lunch);
@@ -68,18 +71,22 @@ public class GenerateCafeteria {
         cafe.getCafeStores().add(vietnam);
         cafe.getCafeStores().add(diner);
 
+        List<Store> stores = cafe.getCafeStores();
+        cafe.setCafeStores(new ArrayList<Store>());
         ObjectMapper mapper = new ObjectMapper();
         mapper.registerModule(new JavaTimeModule());
         try {
-            mapper.writeValue(new FileWriter(new File("samples/cafedata.json")), cafe);
+            mapper.writerWithDefaultPrettyPrinter().writeValue(new FileWriter(new File("samples/cafeteria.json")), cafe);
+            mapper.writerWithDefaultPrettyPrinter().writeValue(new FileWriter(new File("samples/stores.json")), stores);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public static Store createItalian() {
+    public static Store createItalian(UUID cafeid) {
         Store italian = new Store();
         italian.setStoreID(UUID.randomUUID());
+        italian.setCafeID(cafeid);
         italian.setStoreName("little italy");
         italian.setStoreDescription("Collection of american italian dishes everyone loves");
         italian.setTags(new String[]{"Italy","Italian","pasta"});
@@ -261,7 +268,7 @@ public class GenerateCafeteria {
         return italian;
     }
 
-    public static  Store createThai() {
+    public static  Store createThai(UUID cafeid) {
         Store thai = new Store();
         thai.setStoreID(UUID.randomUUID());
         thai.setStoreName("Siam Streets");
@@ -458,7 +465,7 @@ public class GenerateCafeteria {
         return thai;
     }
 
-    public static Store createVietnamese() {
+    public static Store createVietnamese(UUID cafeid) {
         Store vietnam = new Store();
         vietnam.setStoreID(UUID.randomUUID());
         vietnam.setStoreName("Hanoi Heaven");
@@ -753,7 +760,7 @@ public class GenerateCafeteria {
         return vietnam;
     }
 
-    public static Store createDiner() {
+    public static Store createDiner(UUID cafeid) {
         Store diner = new Store();
         diner.setStoreID(UUID.randomUUID());
         diner.setStoreName("Diner 99");

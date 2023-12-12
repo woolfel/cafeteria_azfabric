@@ -7,6 +7,7 @@ import java.util.UUID;
 
 public class Store {
     private UUID storeID;
+    private UUID cafeID;
     private String storeName;
     private String storeDescription;
     private List<Menu> menus = new ArrayList<Menu>();
@@ -20,6 +21,14 @@ public class Store {
 
     public void setStoreID(UUID storeID) {
         this.storeID = storeID;
+    }
+
+    public UUID getCafeID() {
+        return cafeID;
+    }
+
+    public void setCafeID(UUID cafeID) {
+        this.cafeID = cafeID;
     }
 
     public String getStoreName() {
