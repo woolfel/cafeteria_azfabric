@@ -1,1 +1,49 @@
-[{"registerID":"e0122fa9-6fc1-4faf-a28c-c3493721cad5","cafeID":null,"brand":"Square","model":"Square Register Kit","version":"2.0"},{"registerID":"ec518c73-6863-4229-b6ff-10a5230135a4","cafeID":null,"brand":"Square","model":"Square Register Kit","version":"2.0"},{"registerID":"4480bc6b-029c-4c77-a7cd-55761c7bd2fb","cafeID":null,"brand":"Square","model":"Square Register Kit","version":"2.0"},{"registerID":"2cd76e91-1ccc-44b5-abec-ed2915e6835d","cafeID":null,"brand":"Square","model":"Square Register Kit","version":"2.0"},{"registerID":"0de41527-c9cc-4175-8094-f637e56a413f","cafeID":null,"brand":"Square","model":"Square Register Kit","version":"2.0"},{"registerID":"023d260a-8139-490e-9167-31c8bb8530e5","cafeID":null,"brand":"Square","model":"Square Register Kit","version":"2.0"},{"registerID":"92c64feb-1bbe-40ff-b0f7-8263a9c14fa1","cafeID":null,"brand":"Square","model":"Square Register Kit","version":"2.0"},{"registerID":"00538a4f-18ab-4911-ac04-81d93947e0fa","cafeID":null,"brand":"Square","model":"Square Register Kit","version":"2.0"}]
+[ {
+  "registerID" : "6686bfb2-9b11-4722-8e1e-8bea3ea503dc",
+  "cafeID" : null,
+  "brand" : "Square",
+  "model" : "Square Register Kit",
+  "version" : "2.0"
+}, {
+  "registerID" : "e61ea26a-b37f-4158-bdf5-10ee56b2cbf5",
+  "cafeID" : null,
+  "brand" : "Square",
+  "model" : "Square Register Kit",
+  "version" : "2.0"
+}, {
+  "registerID" : "ca62640d-8845-4d49-986c-f0a27d31ca64",
+  "cafeID" : null,
+  "brand" : "Square",
+  "model" : "Square Register Kit",
+  "version" : "2.0"
+}, {
+  "registerID" : "26e1a221-9d77-4619-aeac-7c1fc141ed16",
+  "cafeID" : null,
+  "brand" : "Square",
+  "model" : "Square Register Kit",
+  "version" : "2.0"
+}, {
+  "registerID" : "73002f37-1e25-4a89-96f5-f0b3a61a4aa9",
+  "cafeID" : null,
+  "brand" : "Square",
+  "model" : "Square Register Kit",
+  "version" : "2.0"
+}, {
+  "registerID" : "a0a0fc7e-5b90-43ee-a4fc-104768c743c7",
+  "cafeID" : null,
+  "brand" : "Square",
+  "model" : "Square Register Kit",
+  "version" : "2.0"
+}, {
+  "registerID" : "96347ba1-afa1-49a8-a6b0-c0f0ef33a425",
+  "cafeID" : null,
+  "brand" : "Square",
+  "model" : "Square Register Kit",
+  "version" : "2.0"
+}, {
+  "registerID" : "d159daa5-5c7f-49e8-a42d-b7769ffa4f58",
+  "cafeID" : null,
+  "brand" : "Square",
+  "model" : "Square Register Kit",
+  "version" : "2.0"
+} ]

@@ -40,7 +40,7 @@ public class GenerateEmployees {
         ObjectMapper mapper = new ObjectMapper();
         mapper.registerModule(new JavaTimeModule());
         try {
-            mapper.writeValue(new FileWriter(new File("samples/employees.json")), emps);
+            mapper.writerWithDefaultPrettyPrinter().writeValue(new FileWriter(new File("samples/employees.json")), emps);
         } catch (Exception e) {
             e.printStackTrace();
         }

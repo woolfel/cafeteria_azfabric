@@ -45,7 +45,7 @@ public class GenerateRegisters {
         ObjectMapper mapper = new ObjectMapper();
         mapper.registerModule(new JavaTimeModule());
         try {
-            mapper.writeValue(new FileWriter(new File("samples/registers.json")), regs);
+            mapper.writerWithDefaultPrettyPrinter().writeValue(new FileWriter(new File("samples/registers.json")), regs);
         } catch (Exception e) {
             e.printStackTrace();
         }
