@@ -73,11 +73,18 @@ public class GenerateCafeteria {
 
         List<Store> stores = cafe.getCafeStores();
         cafe.setCafeStores(new ArrayList<Store>());
+        List<Menu> menus = new ArrayList<>();
+        menus.addAll(italian.getMenus());
+        menus.addAll(thai.getMenus());
+        menus.addAll(vietnam.getMenus());
+        menus.addAll(diner.getMenus());
+
         ObjectMapper mapper = new ObjectMapper();
         mapper.registerModule(new JavaTimeModule());
         try {
             mapper.writerWithDefaultPrettyPrinter().writeValue(new FileWriter(new File("samples/cafeteria.json")), cafe);
             mapper.writerWithDefaultPrettyPrinter().writeValue(new FileWriter(new File("samples/stores.json")), stores);
+            mapper.writerWithDefaultPrettyPrinter().writeValue(new FileWriter(new File("samples/menus.json")), menus);
         } catch (Exception e) {
             e.printStackTrace();
         }
