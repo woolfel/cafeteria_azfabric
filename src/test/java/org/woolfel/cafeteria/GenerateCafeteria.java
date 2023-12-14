@@ -271,6 +271,7 @@ public class GenerateCafeteria {
     public static  Store createThai(UUID cafeid) {
         Store thai = new Store();
         thai.setStoreID(UUID.randomUUID());
+        thai.setCafeID(cafeid);
         thai.setStoreName("Siam Streets");
         thai.setStoreDescription("popular street food of thailand");
         thai.setTags(new String[]{"Thailand","spicy","south asian"});
@@ -468,6 +469,7 @@ public class GenerateCafeteria {
     public static Store createVietnamese(UUID cafeid) {
         Store vietnam = new Store();
         vietnam.setStoreID(UUID.randomUUID());
+        vietnam.setCafeID(cafeid);
         vietnam.setStoreName("Hanoi Heaven");
         vietnam.setStoreDescription("the flavors of north vietnam");
         vietnam.setTags(new String[]{"Vietnam","Vietnamese","south asian"});
@@ -763,6 +765,7 @@ public class GenerateCafeteria {
     public static Store createDiner(UUID cafeid) {
         Store diner = new Store();
         diner.setStoreID(UUID.randomUUID());
+        diner.setCafeID(cafeid);
         diner.setStoreName("Diner 99");
         diner.setStoreDescription("your favorite american dishes");
         diner.setTags(new String[]{"diner","american"});
