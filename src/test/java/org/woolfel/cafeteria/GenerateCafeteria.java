@@ -107,7 +107,7 @@ public class GenerateCafeteria {
         i1.setItemNumber(1);
         i1.setCategory("appetizer");
         i1.setShortDescription("breaded deep fried mozzarella with marinara sauce");
-        m.getItems().add(i1);
+        m.addItem(i1);
 
         MenuItem i2 = new MenuItem();
         i2.setItemID(UUID.randomUUID());
@@ -120,7 +120,7 @@ public class GenerateCafeteria {
         i2.setItemNumber(2);
         i2.setCategory("appetizer");
         i2.setShortDescription("bread sticks with marinara sauce");
-        m.getItems().add(i2);
+        m.addItem(i2);
 
         MenuItem i3 = new MenuItem();
         i3.setItemID(UUID.randomUUID());
@@ -133,7 +133,7 @@ public class GenerateCafeteria {
         i3.setShortDescription("deep fried calamari lightly breaded  with marinara and spicy ranch sauce");
         i3.setCategory("appetizer");
         i3.setItemNumber(3);
-        m.getItems().add(i3);
+        m.addItem(i3);
 
         MenuItem i4 = new MenuItem();
         i4.setItemID(UUID.randomUUID());
@@ -146,7 +146,7 @@ public class GenerateCafeteria {
         i4.setShortDescription("A blend of spinach, artichokes and cheeses served warm with flatbread crisps");
         i4.setCategory("appetizer");
         i4.setItemNumber(4);
-        m.getItems().add(i4);
+        m.addItem(i4);
 
         MenuItem i5 = new MenuItem();
         i5.setItemID(UUID.randomUUID());
@@ -159,7 +159,7 @@ public class GenerateCafeteria {
         i5.setShortDescription("Creamy alfredo sauce made from scratch with ingredients like parmesan, cream, garlic and butter, served with fettuccine pasta and topped with sliced grilled chicken");
         i5.setCategory("entree");
         i5.setItemNumber(10);
-        m.getItems().add(i5);
+        m.addItem(i5);
 
         MenuItem i6 = new MenuItem();
         i6.setItemID(UUID.randomUUID());
@@ -172,7 +172,7 @@ public class GenerateCafeteria {
         i6.setShortDescription("Sautéed seasoned chicken, shrimp and spaghetti tossed in a creamy sauce with bacon and roasted red peppers");
         i6.setCategory("entree");
         i6.setItemNumber(11);
-        m.getItems().add(i6);
+        m.addItem(i6);
 
         MenuItem i7 = new MenuItem();
         i7.setItemID(UUID.randomUUID());
@@ -185,7 +185,7 @@ public class GenerateCafeteria {
         i7.setShortDescription("Our homemade marinara served over spaghetti");
         i7.setCategory("entree");
         i7.setItemNumber(12);
-        m.getItems().add(i7);
+        m.addItem(i7);
 
         MenuItem i8 = new MenuItem();
         i8.setItemID(UUID.randomUUID());
@@ -198,7 +198,7 @@ public class GenerateCafeteria {
         i8.setShortDescription("Filled with a blend of Italian cheeses, topped with your choice of homemade marinara or meat sauce and melted mozzarella");
         i8.setCategory("entree");
         i8.setItemNumber(13);
-        m.getItems().add(i8);
+        m.addItem(i8);
 
         MenuItem i9 = new MenuItem();
         i9.setItemID(UUID.randomUUID());
@@ -211,7 +211,7 @@ public class GenerateCafeteria {
         i9.setShortDescription("Eggplant lightly fried and topped with marinara and melted mozzarella. Served with spaghetti");
         i9.setCategory("entree");
         i9.setItemNumber(14);
-        m.getItems().add(i9);
+        m.addItem(i9);
 
         MenuItem i10 = new MenuItem();
         i10.setItemID(UUID.randomUUID());
@@ -224,7 +224,7 @@ public class GenerateCafeteria {
         i10.setShortDescription("Aged parmesan, cream, garlic and butter, served over fettuccine");
         i10.setCategory("entree");
         i10.setItemNumber(15);
-        m.getItems().add(i10);
+        m.addItem(i10);
 
         MenuItem i11 = new MenuItem();
         i11.setItemID(UUID.randomUUID());
@@ -237,7 +237,7 @@ public class GenerateCafeteria {
         i11.setShortDescription("A baked blend of Italian cheeses, pasta and our four cheese marinara");
         i11.setCategory("entree");
         i11.setItemNumber(16);
-        m.getItems().add(i11);
+        m.addItem(i11);
 
         MenuItem i12 = new MenuItem();
         i12.setItemID(UUID.randomUUID());
@@ -250,7 +250,7 @@ public class GenerateCafeteria {
         i12.setShortDescription("A layer of creamy custard set atop espresso-soaked ladyfingers");
         i12.setCategory("dessert");
         i12.setItemNumber(17);
-        m.getItems().add(i12);
+        m.addItem(i12);
 
         MenuItem i13 = new MenuItem();
         i13.setItemID(UUID.randomUUID());
@@ -263,7 +263,7 @@ public class GenerateCafeteria {
         i13.setShortDescription("Ricotta cheesecake with a shortbread cookie crust");
         i13.setCategory("entree");
         i13.setItemNumber(18);
-        m.getItems().add(i13);
+        m.addItem(i13);
 
         return italian;
     }
@@ -292,7 +292,7 @@ public class GenerateCafeteria {
         i1.setShortDescription("Chicken tenders on skewers, marinated with Thai spices; served with peanut sauce and cucumber sauce");
         i1.setLongDescription("");
         i1.setItemNumber(1);
-        m.getItems().add(i1);
+        m.addItem(i1);
 
         MenuItem i2 = new MenuItem();
         i2.setItemID(UUID.randomUUID());
@@ -306,7 +306,7 @@ public class GenerateCafeteria {
         i2.setShortDescription("Charcoal-grilled shrimp marinated with Thai spices; served with peanut sauce and cucumber sauce");
         i2.setLongDescription("");
         i2.setItemNumber(2);
-        m.getItems().add(i2);
+        m.addItem(i2);
 
         MenuItem i3 = new MenuItem();
         i3.setItemID(UUID.randomUUID());
@@ -320,7 +320,7 @@ public class GenerateCafeteria {
         i3.setShortDescription("Four crispy pastry bags filled with chicken, corn, and water chestnuts served with sweet and sour sauce");
         i3.setLongDescription("");
         i3.setItemNumber(3);
-        m.getItems().add(i3);
+        m.addItem(i3);
 
         MenuItem i4 = new MenuItem();
         i4.setItemID(UUID.randomUUID());
@@ -334,7 +334,7 @@ public class GenerateCafeteria {
         i4.setShortDescription("Deep-fried tofu until golden brown served with sweet and sour sauce and ground peanuts");
         i4.setLongDescription("");
         i4.setItemNumber(4);
-        m.getItems().add(i4);
+        m.addItem(i4);
 
         MenuItem i5 = new MenuItem();
         i5.setItemID(UUID.randomUUID());
@@ -348,7 +348,7 @@ public class GenerateCafeteria {
         i5.setShortDescription("Shrimp in coconut baer, deep-fried until golden");
         i5.setLongDescription("");
         i5.setItemNumber(5);
-        m.getItems().add(i5);
+        m.addItem(i5);
 
         MenuItem i6 = new MenuItem();
         i6.setItemID(UUID.randomUUID());
@@ -362,7 +362,7 @@ public class GenerateCafeteria {
         i6.setShortDescription("Thai hot and sour soup with a choice of chicken, lemongrass, mushrooms, tomatoes, and lemon juice topped with cilantro and scallions");
         i6.setLongDescription("");
         i6.setItemNumber(6);
-        m.getItems().add(i6);
+        m.addItem(i6);
 
         MenuItem i7 = new MenuItem();
         i7.setItemID(UUID.randomUUID());
@@ -376,7 +376,7 @@ public class GenerateCafeteria {
         i7.setShortDescription("Coconut milk soup mixed galangal with tofu, Thai herbs, lime juice, mushrooms, tomatoes, cilantro, and scallions");
         i7.setLongDescription("");
         i7.setItemNumber(7);
-        m.getItems().add(i7);
+        m.addItem(i7);
 
         MenuItem i8 = new MenuItem();
         i8.setItemID(UUID.randomUUID());
@@ -390,7 +390,7 @@ public class GenerateCafeteria {
         i8.setShortDescription("Pork sauteed with red and green bell peppers, onions, carrots, broccoli, green beans, mushrooms, scallions & basil leaves.");
         i8.setLongDescription("");
         i8.setItemNumber(8);
-        m.getItems().add(i8);
+        m.addItem(i8);
 
         MenuItem i9 = new MenuItem();
         i9.setItemID(UUID.randomUUID());
@@ -404,7 +404,7 @@ public class GenerateCafeteria {
         i9.setShortDescription("Beef sauteed with fresh ginger, red and green bell peppers, onions, carrots, snow peas, mushrooms, baby corn, and scallions");
         i9.setLongDescription("");
         i9.setItemNumber(9);
-        m.getItems().add(i9);
+        m.addItem(i9);
 
         MenuItem i10 = new MenuItem();
         i10.setItemID(UUID.randomUUID());
@@ -418,7 +418,7 @@ public class GenerateCafeteria {
         i10.setShortDescription("Chicken with red and green bell peppers, carrots, snow peas, baby corn, broccoli, mushrooms, and zucchini served on the side with peanut sauce");
         i10.setLongDescription("");
         i10.setItemNumber(10);
-        m.getItems().add(i10);
+        m.addItem(i10);
 
         MenuItem i11 = new MenuItem();
         i11.setItemID(UUID.randomUUID());
@@ -432,7 +432,7 @@ public class GenerateCafeteria {
         i11.setShortDescription("Fresh garden vegetables in light brown sauce");
         i11.setLongDescription("");
         i11.setItemNumber(11);
-        m.getItems().add(i11);
+        m.addItem(i11);
 
         MenuItem i12 = new MenuItem();
         i12.setItemID(UUID.randomUUID());
@@ -446,7 +446,7 @@ public class GenerateCafeteria {
         i12.setShortDescription("Crispy chicken with red and green bell peppers, and string beans in prik king sauce");
         i12.setLongDescription("");
         i12.setItemNumber(12);
-        m.getItems().add(i12);
+        m.addItem(i12);
 
         MenuItem i13 = new MenuItem();
         i13.setItemID(UUID.randomUUID());
@@ -460,7 +460,7 @@ public class GenerateCafeteria {
         i13.setShortDescription("Chicken is sauteed with eggplant, red and green bell peppers, string beans, carrots and basil in spicy basil sauce");
         i13.setLongDescription("");
         i13.setItemNumber(13);
-        m.getItems().add(i13);
+        m.addItem(i13);
 
         return thai;
     }
@@ -489,7 +489,7 @@ public class GenerateCafeteria {
         i1.setLongDescription("pork wonton in a clear broth with cilantro and carrots");
         i1.setCategory("appetizer");
         i1.setItemNumber(1);
-        m.getItems().add(i1);
+        m.addItem(i1);
 
         MenuItem i2 = new MenuItem();
         i2.setItemID(UUID.randomUUID());
@@ -503,7 +503,7 @@ public class GenerateCafeteria {
         i2.setLongDescription("deep fried spring rolls with pork, mint, carrots and rice noodle");
         i2.setCategory("appetizer");
         i2.setItemNumber(2);
-        m.getItems().add(i2);
+        m.addItem(i2);
 
         MenuItem i5 = new MenuItem();
         i5.setItemID(UUID.randomUUID());
@@ -517,7 +517,7 @@ public class GenerateCafeteria {
         i5.setLongDescription("");
         i5.setCategory("appetizer");
         i5.setItemNumber(3);
-        m.getItems().add(i5);
+        m.addItem(i5);
 
         MenuItem i6 = new MenuItem();
         i6.setItemID(UUID.randomUUID());
@@ -531,7 +531,7 @@ public class GenerateCafeteria {
         i6.setLongDescription("");
         i6.setCategory("appetizer");
         i6.setItemNumber(4);
-        m.getItems().add(i6);
+        m.addItem(i6);
 
         MenuItem i7 = new MenuItem();
         i7.setItemID(UUID.randomUUID());
@@ -545,7 +545,7 @@ public class GenerateCafeteria {
         i7.setLongDescription("");
         i7.setCategory("appetizer");
         i7.setItemNumber(5);
-        m.getItems().add(i7);
+        m.addItem(i7);
 
         MenuItem i11 = new MenuItem();
         i11.setItemID(UUID.randomUUID());
@@ -559,7 +559,7 @@ public class GenerateCafeteria {
         i11.setLongDescription("");
         i11.setCategory("salad");
         i11.setItemNumber(6);
-        m.getItems().add(i11);
+        m.addItem(i11);
 
         MenuItem i12 = new MenuItem();
         i12.setItemID(UUID.randomUUID());
@@ -573,7 +573,7 @@ public class GenerateCafeteria {
         i12.setLongDescription("");
         i12.setCategory("salad");
         i12.setItemNumber(7);
-        m.getItems().add(i12);
+        m.addItem(i12);
 
         MenuItem i13 = new MenuItem();
         i13.setItemID(UUID.randomUUID());
@@ -587,7 +587,7 @@ public class GenerateCafeteria {
         i13.setLongDescription("");
         i13.setCategory("appetizer");
         i13.setItemNumber(8);
-        m.getItems().add(i13);
+        m.addItem(i13);
 
         MenuItem i14 = new MenuItem();
         i14.setItemID(UUID.randomUUID());
@@ -601,7 +601,7 @@ public class GenerateCafeteria {
         i14.setLongDescription("");
         i14.setCategory("appetizer");
         i14.setItemNumber(9);
-        m.getItems().add(i14);
+        m.addItem(i14);
 
         MenuItem i3 = new MenuItem();
         i3.setItemID(UUID.randomUUID());
@@ -615,7 +615,7 @@ public class GenerateCafeteria {
         i3.setLongDescription("Pho noodle soup with rare steak, flank, brisket, tendon and tripe. The noodles are made from rice and there's a side dish of optional toppings.");
         i3.setCategory("noodle soups");
         i3.setItemNumber(10);
-        m.getItems().add(i3);
+        m.addItem(i3);
 
         MenuItem i4 = new MenuItem();
         i4.setItemID(UUID.randomUUID());
@@ -629,7 +629,7 @@ public class GenerateCafeteria {
         i4.setLongDescription("Pho noodle soup with rare steak. The noodles are made from rice, the broth is made from beef bones and there's a side dish of optional toppings.");
         i4.setCategory("noodle soups");
         i4.setItemNumber(11);
-        m.getItems().add(i4);
+        m.addItem(i4);
 
         MenuItem i8 = new MenuItem();
         i8.setItemID(UUID.randomUUID());
@@ -643,7 +643,7 @@ public class GenerateCafeteria {
         i8.setLongDescription("Pho noodle soup with rare steak and tendon");
         i8.setCategory("noodle soups");
         i8.setItemNumber(12);
-        m.getItems().add(i8);
+        m.addItem(i8);
 
         MenuItem i9 = new MenuItem();
         i9.setItemID(UUID.randomUUID());
@@ -657,7 +657,7 @@ public class GenerateCafeteria {
         i9.setLongDescription("");
         i9.setCategory("noodle soups");
         i9.setItemNumber(13);
-        m.getItems().add(i9);
+        m.addItem(i9);
 
         MenuItem i10 = new MenuItem();
         i10.setItemID(UUID.randomUUID());
@@ -671,7 +671,7 @@ public class GenerateCafeteria {
         i10.setLongDescription("");
         i10.setCategory("noodle soups");
         i10.setItemNumber(14);
-        m.getItems().add(i10);
+        m.addItem(i10);
 
         MenuItem i15 = new MenuItem();
         i15.setItemID(UUID.randomUUID());
@@ -685,7 +685,7 @@ public class GenerateCafeteria {
         i15.setLongDescription("");
         i15.setCategory("stir fry");
         i15.setItemNumber(15);
-        m.getItems().add(i15);
+        m.addItem(i15);
 
         MenuItem i16 = new MenuItem();
         i16.setItemID(UUID.randomUUID());
@@ -699,7 +699,7 @@ public class GenerateCafeteria {
         i16.setLongDescription("");
         i16.setCategory("stir fry");
         i16.setItemNumber(16);
-        m.getItems().add(i16);
+        m.addItem(i16);
 
         MenuItem i17 = new MenuItem();
         i17.setItemID(UUID.randomUUID());
@@ -713,7 +713,7 @@ public class GenerateCafeteria {
         i17.setLongDescription("");
         i17.setCategory("stir fry");
         i17.setItemNumber(17);
-        m.getItems().add(i17);
+        m.addItem(i17);
 
         MenuItem i18 = new MenuItem();
         i18.setItemID(UUID.randomUUID());
@@ -727,7 +727,7 @@ public class GenerateCafeteria {
         i18.setLongDescription("");
         i18.setCategory("stir fry");
         i18.setItemNumber(18);
-        m.getItems().add(i18);
+        m.addItem(i18);
 
         MenuItem i19 = new MenuItem();
         i19.setItemID(UUID.randomUUID());
@@ -741,7 +741,7 @@ public class GenerateCafeteria {
         i19.setLongDescription("");
         i19.setCategory("stir fry");
         i19.setItemNumber(19);
-        m.getItems().add(i19);
+        m.addItem(i19);
 
         MenuItem i20 = new MenuItem();
         i20.setItemID(UUID.randomUUID());
@@ -755,7 +755,7 @@ public class GenerateCafeteria {
         i20.setLongDescription("");
         i20.setCategory("stir fry");
         i20.setItemNumber(20);
-        m.getItems().add(i20);
+        m.addItem(i20);
 
         return vietnam;
     }
@@ -784,7 +784,7 @@ public class GenerateCafeteria {
         i1.setLongDescription("");
         i1.setCategory("soups");
         i1.setItemNumber(1);
-        m.getItems().add(i1);
+        m.addItem(i1);
 
         MenuItem i2 = new MenuItem();
         i2.setItemID(UUID.randomUUID());
@@ -798,7 +798,7 @@ public class GenerateCafeteria {
         i2.setLongDescription("");
         i2.setCategory("soups");
         i2.setItemNumber(2);
-        m.getItems().add(i2);
+        m.addItem(i2);
 
         MenuItem i3 = new MenuItem();
         i3.setItemID(UUID.randomUUID());
@@ -812,7 +812,7 @@ public class GenerateCafeteria {
         i3.setLongDescription("");
         i3.setCategory("appetizer");
         i3.setItemNumber(3);
-        m.getItems().add(i3);
+        m.addItem(i3);
 
         MenuItem i4 = new MenuItem();
         i4.setItemID(UUID.randomUUID());
@@ -826,7 +826,7 @@ public class GenerateCafeteria {
         i4.setLongDescription("");
         i4.setCategory("appetizer");
         i4.setItemNumber(4);
-        m.getItems().add(i4);
+        m.addItem(i4);
 
         MenuItem i5 = new MenuItem();
         i5.setItemID(UUID.randomUUID());
@@ -838,9 +838,9 @@ public class GenerateCafeteria {
         i5.setPrice(new BigDecimal("11.99"));
         i5.setShortDescription("Yukon gold potato hash with 3 eggs");
         i5.setLongDescription("");
-        i5.setCategory("entrees");
+        i5.setCategory("breakfast");
         i5.setItemNumber(5);
-        m.getItems().add(i5);
+        m.addItem(i5);
 
         MenuItem i6 = new MenuItem();
         i6.setItemID(UUID.randomUUID());
@@ -852,9 +852,9 @@ public class GenerateCafeteria {
         i6.setPrice(new BigDecimal("13.89"));
         i6.setShortDescription("");
         i6.setLongDescription("");
-        i6.setCategory("entrees");
+        i6.setCategory("breakfast");
         i6.setItemNumber(6);
-        m.getItems().add(i6);
+        m.addItem(i6);
 
         MenuItem i7 = new MenuItem();
         i7.setItemID(UUID.randomUUID());
@@ -866,9 +866,9 @@ public class GenerateCafeteria {
         i7.setPrice(new BigDecimal("8.89"));
         i7.setShortDescription("");
         i7.setLongDescription("");
-        i7.setCategory("entrees");
+        i7.setCategory("breakfast");
         i7.setItemNumber(7);
-        m.getItems().add(i7);
+        m.addItem(i7);
 
         MenuItem i8 = new MenuItem();
         i8.setItemID(UUID.randomUUID());
@@ -882,7 +882,7 @@ public class GenerateCafeteria {
         i8.setLongDescription("");
         i8.setCategory("sandwich");
         i8.setItemNumber(8);
-        m.getItems().add(i8);
+        m.addItem(i8);
 
         MenuItem i9 = new MenuItem();
         i9.setItemID(UUID.randomUUID());
@@ -896,7 +896,7 @@ public class GenerateCafeteria {
         i9.setLongDescription("");
         i9.setCategory("sandwich");
         i9.setItemNumber(9);
-        m.getItems().add(i9);
+        m.addItem(i9);
 
         MenuItem i10 = new MenuItem();
         i10.setItemID(UUID.randomUUID());
@@ -910,7 +910,7 @@ public class GenerateCafeteria {
         i10.setLongDescription("");
         i10.setCategory("sandwich");
         i10.setItemNumber(10);
-        m.getItems().add(i10);
+        m.addItem(i10);
 
         MenuItem i11 = new MenuItem();
         i11.setItemID(UUID.randomUUID());
@@ -924,7 +924,7 @@ public class GenerateCafeteria {
         i11.setLongDescription("");
         i11.setCategory("sandwich");
         i11.setItemNumber(11);
-        m.getItems().add(i11);
+        m.addItem(i11);
 
         MenuItem i12 = new MenuItem();
         i12.setItemID(UUID.randomUUID());
@@ -938,7 +938,7 @@ public class GenerateCafeteria {
         i12.setLongDescription("");
         i12.setCategory("sandwich");
         i12.setItemNumber(12);
-        m.getItems().add(i12);
+        m.addItem(i12);
 
         MenuItem i13 = new MenuItem();
         i13.setItemID(UUID.randomUUID());
@@ -952,7 +952,7 @@ public class GenerateCafeteria {
         i13.setLongDescription("");
         i13.setCategory("burger");
         i13.setItemNumber(13);
-        m.getItems().add(i13);
+        m.addItem(i13);
 
         MenuItem i14 = new MenuItem();
         i14.setItemID(UUID.randomUUID());
@@ -966,7 +966,7 @@ public class GenerateCafeteria {
         i14.setLongDescription("");
         i14.setCategory("burger");
         i14.setItemNumber(14);
-        m.getItems().add(i14);
+        m.addItem(i14);
 
         MenuItem i15 = new MenuItem();
         i15.setItemID(UUID.randomUUID());
@@ -980,7 +980,7 @@ public class GenerateCafeteria {
         i15.setLongDescription("");
         i15.setCategory("burger");
         i15.setItemNumber(15);
-        m.getItems().add(i15);
+        m.addItem(i15);
 
         MenuItem i16 = new MenuItem();
         i16.setItemID(UUID.randomUUID());
@@ -994,7 +994,7 @@ public class GenerateCafeteria {
         i16.setLongDescription("");
         i16.setCategory("burger");
         i16.setItemNumber(16);
-        m.getItems().add(i16);
+        m.addItem(i16);
 
         MenuItem i17 = new MenuItem();
         i17.setItemID(UUID.randomUUID());
@@ -1008,7 +1008,7 @@ public class GenerateCafeteria {
         i17.setLongDescription("");
         i17.setCategory("omelet");
         i17.setItemNumber(17);
-        m.getItems().add(i17);
+        m.addItem(i17);
 
         MenuItem i18 = new MenuItem();
         i18.setItemID(UUID.randomUUID());
@@ -1022,7 +1022,7 @@ public class GenerateCafeteria {
         i18.setLongDescription("");
         i18.setCategory("omelet");
         i18.setItemNumber(18);
-        m.getItems().add(i18);
+        m.addItem(i18);
 
         MenuItem i19 = new MenuItem();
         i19.setItemID(UUID.randomUUID());
@@ -1036,7 +1036,7 @@ public class GenerateCafeteria {
         i19.setLongDescription("");
         i19.setCategory("omelet");
         i19.setItemNumber(19);
-        m.getItems().add(i19);
+        m.addItem(i19);
 
         MenuItem i20 = new MenuItem();
         i20.setItemID(UUID.randomUUID());
@@ -1050,7 +1050,91 @@ public class GenerateCafeteria {
         i20.setLongDescription("");
         i20.setCategory("omelet");
         i20.setItemNumber(20);
-        m.getItems().add(i20);
+        m.addItem(i20);
+
+        MenuItem i21 = new MenuItem();
+        i21.setItemID(UUID.randomUUID());
+        i21.setName("Cherrios");
+        i21.setGlutenfree(true);
+        i21.setNutfree(true);
+        i21.setVegan(true);
+        i21.setVegetarian(true);
+        i21.setPrice(new BigDecimal("3.89"));
+        i21.setShortDescription("Cherrios breakfast cereal");
+        i21.setLongDescription("");
+        i21.setCategory("breakfast");
+        i21.setItemNumber(21);
+        m.addItem(i21);
+
+        MenuItem i22 = new MenuItem();
+        i22.setItemID(UUID.randomUUID());
+        i22.setName("Rice Krispies");
+        i22.setGlutenfree(true);
+        i22.setNutfree(true);
+        i22.setVegan(true);
+        i22.setVegetarian(true);
+        i22.setPrice(new BigDecimal("3.89"));
+        i22.setShortDescription("Rice Krispies");
+        i22.setLongDescription("");
+        i22.setCategory("breakfast");
+        i22.setItemNumber(22);
+        m.addItem(i22);
+
+        MenuItem i23 = new MenuItem();
+        i23.setItemID(UUID.randomUUID());
+        i23.setName("Chex");
+        i23.setGlutenfree(false);
+        i23.setNutfree(true);
+        i23.setVegan(true);
+        i23.setVegetarian(true);
+        i23.setPrice(new BigDecimal("3.89"));
+        i23.setShortDescription("Chex cereal");
+        i23.setLongDescription("");
+        i23.setCategory("breakfast");
+        i23.setItemNumber(23);
+        m.addItem(i23);
+
+        MenuItem i24 = new MenuItem();
+        i24.setItemID(UUID.randomUUID());
+        i24.setName("Bagel");
+        i24.setGlutenfree(false);
+        i24.setNutfree(true);
+        i24.setVegan(false);
+        i24.setVegetarian(false);
+        i24.setPrice(new BigDecimal("2.89"));
+        i24.setShortDescription("Bagel flavors vary daily: plain, egg, everything");
+        i24.setLongDescription("");
+        i24.setCategory("breakfast");
+        i24.setItemNumber(24);
+        m.addItem(i24);
+
+        MenuItem i25 = new MenuItem();
+        i25.setItemID(UUID.randomUUID());
+        i25.setName("Hot Oatmeal");
+        i25.setGlutenfree(true);
+        i25.setNutfree(true);
+        i25.setVegan(true);
+        i25.setVegetarian(true);
+        i25.setPrice(new BigDecimal("3.89"));
+        i25.setShortDescription("Hot Oatmeal cereal");
+        i25.setLongDescription("");
+        i25.setCategory("breakfast");
+        i25.setItemNumber(25);
+        m.addItem(i25);
+
+        MenuItem i26 = new MenuItem();
+        i26.setItemID(UUID.randomUUID());
+        i26.setName("Cream of Wheat");
+        i26.setGlutenfree(false);
+        i26.setNutfree(true);
+        i26.setVegan(false);
+        i26.setVegetarian(false);
+        i26.setPrice(new BigDecimal("1.89"));
+        i26.setShortDescription("Instant cream of wheat");
+        i26.setLongDescription("");
+        i26.setCategory("breakfast");
+        i26.setItemNumber(26);
+        m.addItem(i26);
 
         return diner;
     }

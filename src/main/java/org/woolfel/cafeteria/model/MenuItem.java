@@ -5,6 +5,7 @@ import java.util.UUID;
 
 public class MenuItem {
     private UUID itemID;
+    private UUID menuID;
     private String name;
     private String shortDescription;
     private String longDescription;
@@ -26,6 +27,14 @@ public class MenuItem {
 
     public void setItemID(UUID itemID) {
         this.itemID = itemID;
+    }
+
+    public UUID getMenuID() {
+        return menuID;
+    }
+
+    public void setMenuID(UUID menuID) {
+        this.menuID = menuID;
     }
 
     public String getName() {

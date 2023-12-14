@@ -60,4 +60,8 @@ public class Menu {
     public void setItems(List<MenuItem> items) {
         this.items = items;
     }
+    public void addItem(MenuItem item) {
+        item.setMenuID(this.menuID);
+        this.items.add(item);
+    }
 }
