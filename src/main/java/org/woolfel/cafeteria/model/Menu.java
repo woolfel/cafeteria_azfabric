@@ -12,6 +12,7 @@ import java.util.UUID;
  */
 public class Menu {
     private UUID menuID;
+    private UUID storeID;
     private LocalDate beginDate;
     private LocalDate endDate;
     /**
@@ -27,6 +28,14 @@ public class Menu {
 
     public void setMenuID(UUID menuID) {
         this.menuID = menuID;
+    }
+
+    public UUID getStoreID() {
+        return storeID;
+    }
+
+    public void setStoreID(UUID storeID) {
+        this.storeID = storeID;
     }
 
     public LocalDate getBeginDate() {

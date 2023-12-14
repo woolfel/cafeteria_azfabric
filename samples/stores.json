@@ -1,16 +1,17 @@
 [ {
-  "storeID" : "f220eb34-13a9-447a-a0b7-f6de80ed3389",
-  "cafeID" : "2cb9441d-55d1-4507-b4aa-955b76ad4fc0",
+  "storeID" : "0b8cf15d-22c8-4440-bfeb-28e908555c50",
+  "cafeID" : "c0269a0b-b895-46c7-966c-57fbd3466dbf",
   "storeName" : "little italy",
   "storeDescription" : "Collection of american italian dishes everyone loves",
   "menus" : [ {
-    "menuID" : "74f67c15-285b-4555-92d3-6d494ea5bed2",
+    "menuID" : "3c615c82-f6c3-4ef5-88bb-e752717c65f3",
+    "storeID" : "0b8cf15d-22c8-4440-bfeb-28e908555c50",
     "beginDate" : null,
     "endDate" : null,
     "menuType" : "dine-in",
     "items" : [ {
-      "itemID" : "50982b94-e692-4282-83e1-f2b94641a5ef",
-      "menuID" : "74f67c15-285b-4555-92d3-6d494ea5bed2",
+      "itemID" : "36b3e2ed-6c95-4040-b074-4d73d0f300a7",
+      "menuID" : "3c615c82-f6c3-4ef5-88bb-e752717c65f3",
       "name" : "Fried Mozzarella",
       "shortDescription" : "breaded deep fried mozzarella with marinara sauce",
       "longDescription" : null,
@@ -24,8 +25,8 @@
       "price" : 7.97,
       "category" : "appetizer"
     }, {
-      "itemID" : "beaca0e6-9c08-4784-bf9f-d5aadb0d350b",
-      "menuID" : "74f67c15-285b-4555-92d3-6d494ea5bed2",
+      "itemID" : "647df0f4-21ee-4c8a-b695-1755f4f39511",
+      "menuID" : "3c615c82-f6c3-4ef5-88bb-e752717c65f3",
       "name" : "Bread Sticks",
       "shortDescription" : "bread sticks with marinara sauce",
       "longDescription" : null,
@@ -39,8 +40,8 @@
       "price" : 5.49,
       "category" : "appetizer"
     }, {
-      "itemID" : "3e0be47d-b9e2-43ac-9a30-ef59f5678f43",
-      "menuID" : "74f67c15-285b-4555-92d3-6d494ea5bed2",
+      "itemID" : "cf30a033-69d3-4f05-afbe-a00a00fae5c7",
+      "menuID" : "3c615c82-f6c3-4ef5-88bb-e752717c65f3",
       "name" : "Calamari",
       "shortDescription" : "deep fried calamari lightly breaded  with marinara and spicy ranch sauce",
       "longDescription" : null,
@@ -54,8 +55,8 @@
       "price" : 12.99,
       "category" : "appetizer"
     }, {
-      "itemID" : "31b86269-5358-4901-bf36-2b4e3cea3101",
-      "menuID" : "74f67c15-285b-4555-92d3-6d494ea5bed2",
+      "itemID" : "0a5da67c-a9a7-45d0-be1e-34ceaea972b7",
+      "menuID" : "3c615c82-f6c3-4ef5-88bb-e752717c65f3",
       "name" : "Spinach-Artichoke Dip",
       "shortDescription" : "A blend of spinach, artichokes and cheeses served warm with flatbread crisps",
       "longDescription" : null,
@@ -69,8 +70,8 @@
       "price" : 11.79,
       "category" : "appetizer"
     }, {
-      "itemID" : "e64f2b5a-1169-48cd-82b1-549f9ca2b01a",
-      "menuID" : "74f67c15-285b-4555-92d3-6d494ea5bed2",
+      "itemID" : "2a084f0d-4a98-4787-8780-74f1a2ed0a49",
+      "menuID" : "3c615c82-f6c3-4ef5-88bb-e752717c65f3",
       "name" : "Chicken Alfredo",
       "shortDescription" : "Creamy alfredo sauce made from scratch with ingredients like parmesan, cream, garlic and butter, served with fettuccine pasta and topped with sliced grilled chicken",
       "longDescription" : null,
@@ -84,8 +85,8 @@
       "price" : 13.99,
       "category" : "entree"
     }, {
-      "itemID" : "42827527-e547-4143-b635-809532464c2d",
-      "menuID" : "74f67c15-285b-4555-92d3-6d494ea5bed2",
+      "itemID" : "5d5b3928-a033-486b-a125-96820b8878ea",
+      "menuID" : "3c615c82-f6c3-4ef5-88bb-e752717c65f3",
       "name" : "Chicken and Shrimp Carbonara",
       "shortDescription" : "Sautéed seasoned chicken, shrimp and spaghetti tossed in a creamy sauce with bacon and roasted red peppers",
       "longDescription" : null,
@@ -99,8 +100,8 @@
       "price" : 20.69,
       "category" : "entree"
     }, {
-      "itemID" : "dc26d7c6-9cd4-4f71-bf28-c207e34b60a7",
-      "menuID" : "74f67c15-285b-4555-92d3-6d494ea5bed2",
+      "itemID" : "ef644b7f-4e99-4529-a153-ef5fe7a59988",
+      "menuID" : "3c615c82-f6c3-4ef5-88bb-e752717c65f3",
       "name" : "Spaghetti with Marinara",
       "shortDescription" : "Our homemade marinara served over spaghetti",
       "longDescription" : null,
@@ -114,8 +115,8 @@
       "price" : 10.99,
       "category" : "entree"
     }, {
-      "itemID" : "d316e1fe-2884-4f73-898a-374bb4dbaa51",
-      "menuID" : "74f67c15-285b-4555-92d3-6d494ea5bed2",
+      "itemID" : "36ba6b87-89e0-440b-9b4b-9749c3f74d09",
+      "menuID" : "3c615c82-f6c3-4ef5-88bb-e752717c65f3",
       "name" : "Cheese Ravioli",
       "shortDescription" : "Filled with a blend of Italian cheeses, topped with your choice of homemade marinara or meat sauce and melted mozzarella",
       "longDescription" : null,
@@ -129,8 +130,8 @@
       "price" : 16.89,
       "category" : "entree"
     }, {
-      "itemID" : "d401968a-429b-4e74-8f01-08d1e33f90d6",
-      "menuID" : "74f67c15-285b-4555-92d3-6d494ea5bed2",
+      "itemID" : "df70da6c-c084-4dc1-b4f1-a6175b6b00e7",
+      "menuID" : "3c615c82-f6c3-4ef5-88bb-e752717c65f3",
       "name" : "Eggplant Parmigiana",
       "shortDescription" : "Eggplant lightly fried and topped with marinara and melted mozzarella. Served with spaghetti",
       "longDescription" : null,
@@ -144,8 +145,8 @@
       "price" : 17.86,
       "category" : "entree"
     }, {
-      "itemID" : "ff51bd7a-2b8d-4f87-b217-7b62f4692533",
-      "menuID" : "74f67c15-285b-4555-92d3-6d494ea5bed2",
+      "itemID" : "82f23b56-d263-408a-b2ac-d499abfddde1",
+      "menuID" : "3c615c82-f6c3-4ef5-88bb-e752717c65f3",
       "name" : "Fettuccine Alfredo",
       "shortDescription" : "Aged parmesan, cream, garlic and butter, served over fettuccine",
       "longDescription" : null,
@@ -159,8 +160,8 @@
       "price" : 12.99,
       "category" : "entree"
     }, {
-      "itemID" : "16a2208d-414d-4d8d-bb69-bb413554a1a4",
-      "menuID" : "74f67c15-285b-4555-92d3-6d494ea5bed2",
+      "itemID" : "30f9ea8e-3696-4a71-8fd9-87cbeb285c29",
+      "menuID" : "3c615c82-f6c3-4ef5-88bb-e752717c65f3",
       "name" : "Four Cheese Ziti",
       "shortDescription" : "A baked blend of Italian cheeses, pasta and our four cheese marinara",
       "longDescription" : null,
@@ -174,8 +175,8 @@
       "price" : 18.98,
       "category" : "entree"
     }, {
-      "itemID" : "9421fe8e-3216-424b-8757-1628972361c9",
-      "menuID" : "74f67c15-285b-4555-92d3-6d494ea5bed2",
+      "itemID" : "bbd75e91-1ae6-46cb-a5d5-093efc94259e",
+      "menuID" : "3c615c82-f6c3-4ef5-88bb-e752717c65f3",
       "name" : "Tiramisu",
       "shortDescription" : "A layer of creamy custard set atop espresso-soaked ladyfingers",
       "longDescription" : null,
@@ -189,8 +190,8 @@
       "price" : 8.98,
       "category" : "dessert"
     }, {
-      "itemID" : "7d4da143-6fe8-489d-8ef3-6542852a3f0a",
-      "menuID" : "74f67c15-285b-4555-92d3-6d494ea5bed2",
+      "itemID" : "c8a5083c-a6dd-4a7d-a78c-b0566bd01389",
+      "menuID" : "3c615c82-f6c3-4ef5-88bb-e752717c65f3",
       "name" : "Sicilian Cheesecake",
       "shortDescription" : "Ricotta cheesecake with a shortbread cookie crust",
       "longDescription" : null,
@@ -216,18 +217,19 @@
     "name" : "dinner"
   } ]
 }, {
-  "storeID" : "a00fae35-c4fb-4a67-b7f8-170754cb6c62",
+  "storeID" : "6b5e65fc-e31f-4543-87ca-29bb21992a8e",
   "cafeID" : null,
   "storeName" : "Siam Streets",
   "storeDescription" : "popular street food of thailand",
   "menus" : [ {
-    "menuID" : "1e5e7dd9-9eaa-4c1c-85c7-bc371ac55fb7",
+    "menuID" : "fb0024f9-3b93-4ec7-b2fe-6cf49509f6dd",
+    "storeID" : "6b5e65fc-e31f-4543-87ca-29bb21992a8e",
     "beginDate" : null,
     "endDate" : null,
     "menuType" : "dine-in",
     "items" : [ {
-      "itemID" : "53f2ac25-1dc5-4736-9b32-588fc8318782",
-      "menuID" : "1e5e7dd9-9eaa-4c1c-85c7-bc371ac55fb7",
+      "itemID" : "88a1cecd-aabc-4598-b1fd-52d73f9fb6ff",
+      "menuID" : "fb0024f9-3b93-4ec7-b2fe-6cf49509f6dd",
       "name" : "Chicken Satay",
       "shortDescription" : "Chicken tenders on skewers, marinated with Thai spices; served with peanut sauce and cucumber sauce",
       "longDescription" : "",
@@ -241,8 +243,8 @@
       "price" : 9.50,
       "category" : "appetizer"
     }, {
-      "itemID" : "eb62b0ed-35a4-46ad-b467-58392bae323d",
-      "menuID" : "1e5e7dd9-9eaa-4c1c-85c7-bc371ac55fb7",
+      "itemID" : "53e9bd56-3c6f-4d2d-a997-a5b2f8c2e54e",
+      "menuID" : "fb0024f9-3b93-4ec7-b2fe-6cf49509f6dd",
       "name" : "Shrimp Satay",
       "shortDescription" : "Charcoal-grilled shrimp marinated with Thai spices; served with peanut sauce and cucumber sauce",
       "longDescription" : "",
@@ -256,8 +258,8 @@
       "price" : 9.50,
       "category" : "appetizer"
     }, {
-      "itemID" : "f20c9dce-f652-4dbe-b9b9-192a2460208f",
-      "menuID" : "1e5e7dd9-9eaa-4c1c-85c7-bc371ac55fb7",
+      "itemID" : "599ea4f1-8bb8-4342-8f46-cd9b5420a328",
+      "menuID" : "fb0024f9-3b93-4ec7-b2fe-6cf49509f6dd",
       "name" : "Tung Tong",
       "shortDescription" : "Four crispy pastry bags filled with chicken, corn, and water chestnuts served with sweet and sour sauce",
       "longDescription" : "",
@@ -271,8 +273,8 @@
       "price" : 9.89,
       "category" : "appetizer"
     }, {
-      "itemID" : "ee57ddae-0c88-4d52-8505-25b29f335f5c",
-      "menuID" : "1e5e7dd9-9eaa-4c1c-85c7-bc371ac55fb7",
+      "itemID" : "2dba51d3-2eda-49aa-9bc0-b549004b5f93",
+      "menuID" : "fb0024f9-3b93-4ec7-b2fe-6cf49509f6dd",
       "name" : "Fried Tofu",
       "shortDescription" : "Deep-fried tofu until golden brown served with sweet and sour sauce and ground peanuts",
       "longDescription" : "",
@@ -286,8 +288,8 @@
       "price" : 8.95,
       "category" : "appetizer"
     }, {
-      "itemID" : "2ed4e530-411f-41c6-b828-0cdeb0bc92a3",
-      "menuID" : "1e5e7dd9-9eaa-4c1c-85c7-bc371ac55fb7",
+      "itemID" : "163a3b1e-b0f8-4fcb-b0a6-1fdf219dd846",
+      "menuID" : "fb0024f9-3b93-4ec7-b2fe-6cf49509f6dd",
       "name" : "Coconut Shrimp",
       "shortDescription" : "Shrimp in coconut baer, deep-fried until golden",
       "longDescription" : "",
@@ -301,8 +303,8 @@
       "price" : 9.28,
       "category" : "appetizer"
     }, {
-      "itemID" : "0cf490f5-cd5b-4500-bf4b-6db773dc5a00",
-      "menuID" : "1e5e7dd9-9eaa-4c1c-85c7-bc371ac55fb7",
+      "itemID" : "342a268c-afe3-471d-8b0d-dff0c02b0254",
+      "menuID" : "fb0024f9-3b93-4ec7-b2fe-6cf49509f6dd",
       "name" : "Tom Yum",
       "shortDescription" : "Thai hot and sour soup with a choice of chicken, lemongrass, mushrooms, tomatoes, and lemon juice topped with cilantro and scallions",
       "longDescription" : "",
@@ -316,8 +318,8 @@
       "price" : 7.59,
       "category" : "soup"
     }, {
-      "itemID" : "6be7df46-8d56-4f8f-96dc-2dc43216073d",
-      "menuID" : "1e5e7dd9-9eaa-4c1c-85c7-bc371ac55fb7",
+      "itemID" : "7764b548-1032-4ecf-8f68-185fd3d5de27",
+      "menuID" : "fb0024f9-3b93-4ec7-b2fe-6cf49509f6dd",
       "name" : "Tom Kha",
       "shortDescription" : "Coconut milk soup mixed galangal with tofu, Thai herbs, lime juice, mushrooms, tomatoes, cilantro, and scallions",
       "longDescription" : "",
@@ -331,8 +333,8 @@
       "price" : 8.59,
       "category" : "soup"
     }, {
-      "itemID" : "3392584f-cd11-45c0-a311-fdb46fad6124",
-      "menuID" : "1e5e7dd9-9eaa-4c1c-85c7-bc371ac55fb7",
+      "itemID" : "ccde2962-f4e3-4e85-bfce-9d1de00e9072",
+      "menuID" : "fb0024f9-3b93-4ec7-b2fe-6cf49509f6dd",
       "name" : "Pork Basil and chili",
       "shortDescription" : "Pork sauteed with red and green bell peppers, onions, carrots, broccoli, green beans, mushrooms, scallions & basil leaves.",
       "longDescription" : "",
@@ -346,8 +348,8 @@
       "price" : 14.95,
       "category" : "entree"
     }, {
-      "itemID" : "5223746d-8b9c-481c-bae5-38529e7cbfe4",
-      "menuID" : "1e5e7dd9-9eaa-4c1c-85c7-bc371ac55fb7",
+      "itemID" : "8e4883d3-9335-49bd-afb6-cd23a12fb5d3",
+      "menuID" : "fb0024f9-3b93-4ec7-b2fe-6cf49509f6dd",
       "name" : "Ginger Beef",
       "shortDescription" : "Beef sauteed with fresh ginger, red and green bell peppers, onions, carrots, snow peas, mushrooms, baby corn, and scallions",
       "longDescription" : "",
@@ -361,8 +363,8 @@
       "price" : 15.95,
       "category" : "entree"
     }, {
-      "itemID" : "e28d4054-a05a-4423-9c79-6e81df80be7a",
-      "menuID" : "1e5e7dd9-9eaa-4c1c-85c7-bc371ac55fb7",
+      "itemID" : "c9a2b787-edd6-49e4-aac2-9ee58c62d8df",
+      "menuID" : "fb0024f9-3b93-4ec7-b2fe-6cf49509f6dd",
       "name" : "Rama Garden",
       "shortDescription" : "Chicken with red and green bell peppers, carrots, snow peas, baby corn, broccoli, mushrooms, and zucchini served on the side with peanut sauce",
       "longDescription" : "",
@@ -376,8 +378,8 @@
       "price" : 14.99,
       "category" : "entree"
     }, {
-      "itemID" : "c578293a-ca71-458a-a10c-042a86f32669",
-      "menuID" : "1e5e7dd9-9eaa-4c1c-85c7-bc371ac55fb7",
+      "itemID" : "684c296d-3db6-424c-906e-8c76ca755b96",
+      "menuID" : "fb0024f9-3b93-4ec7-b2fe-6cf49509f6dd",
       "name" : "Mixed Veggies",
       "shortDescription" : "Fresh garden vegetables in light brown sauce",
       "longDescription" : "",
@@ -391,8 +393,8 @@
       "price" : 8.95,
       "category" : "entree"
     }, {
-      "itemID" : "4de1b026-9530-40dc-aa44-2a258d32f7f1",
-      "menuID" : "1e5e7dd9-9eaa-4c1c-85c7-bc371ac55fb7",
+      "itemID" : "d83da058-7d7b-4e80-b3d6-7bf994e1f7a4",
+      "menuID" : "fb0024f9-3b93-4ec7-b2fe-6cf49509f6dd",
       "name" : "Pad Prik King Chicken",
       "shortDescription" : "Crispy chicken with red and green bell peppers, and string beans in prik king sauce",
       "longDescription" : "",
@@ -406,8 +408,8 @@
       "price" : 17.85,
       "category" : "entree"
     }, {
-      "itemID" : "226cd318-bb01-45e3-ac25-07f8e14b2892",
-      "menuID" : "1e5e7dd9-9eaa-4c1c-85c7-bc371ac55fb7",
+      "itemID" : "e3cea086-cc8d-456e-a839-cb48c807826b",
+      "menuID" : "fb0024f9-3b93-4ec7-b2fe-6cf49509f6dd",
       "name" : "Spicy Eggplant",
       "shortDescription" : "Chicken is sauteed with eggplant, red and green bell peppers, string beans, carrots and basil in spicy basil sauce",
       "longDescription" : "",
@@ -433,18 +435,19 @@
     "name" : "dinner"
   } ]
 }, {
-  "storeID" : "3f84b006-9909-41b8-8990-92f7911c15bf",
+  "storeID" : "07cedcb6-23c4-44a2-b734-b5db36f82a19",
   "cafeID" : null,
   "storeName" : "Hanoi Heaven",
   "storeDescription" : "the flavors of north vietnam",
   "menus" : [ {
-    "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+    "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
+    "storeID" : "07cedcb6-23c4-44a2-b734-b5db36f82a19",
     "beginDate" : null,
     "endDate" : null,
     "menuType" : "dine-in",
     "items" : [ {
-      "itemID" : "6402f5ef-ba3c-470f-9012-1c5da808e614",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "0d93a923-c0c0-4da8-9734-6333b155a5e3",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Wonton Soup",
       "shortDescription" : "pork wonton in a clear broth",
       "longDescription" : "pork wonton in a clear broth with cilantro and carrots",
@@ -458,8 +461,8 @@
       "price" : 9.95,
       "category" : "appetizer"
     }, {
-      "itemID" : "7be73e8c-ba5c-45af-a58b-e01c5729cd1d",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "e3bf6534-3fb3-44a7-8e41-3e559e9cae7b",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Crispy spring rolls",
       "shortDescription" : "deep fried spring rolls with pork",
       "longDescription" : "deep fried spring rolls with pork, mint, carrots and rice noodle",
@@ -473,8 +476,8 @@
       "price" : 6.95,
       "category" : "appetizer"
     }, {
-      "itemID" : "ea3e4d96-eab5-48d3-9b80-187109d6a69f",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "cde0cff0-2872-4a27-85d3-81192aa2a1a9",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Roast Quail",
       "shortDescription" : "2 Roast Quail serves 4 people",
       "longDescription" : "",
@@ -488,8 +491,8 @@
       "price" : 18.95,
       "category" : "appetizer"
     }, {
-      "itemID" : "844043f7-ec5a-4ec3-bdbc-f3a0d4ad9bda",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "779e42b1-4948-4751-abfe-d90f62a5b869",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Summer Rolls",
       "shortDescription" : "This traditional Vietnamese Spring Roll with fresh veggies, herbs, soft slices of pork and shrimp served with a super hoisin and peanut dipping sauce",
       "longDescription" : "",
@@ -503,8 +506,8 @@
       "price" : 9.95,
       "category" : "appetizer"
     }, {
-      "itemID" : "88485b53-b55d-4ca9-ac94-6b278ff753bb",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "92ba4b4f-d7c0-496f-9603-6963afa47577",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Vietnamese Crepe",
       "shortDescription" : "A mixture of shrimp, pork, and bean sprouts folded into a rice powder pancake",
       "longDescription" : "",
@@ -518,8 +521,8 @@
       "price" : 9.95,
       "category" : "appetizer"
     }, {
-      "itemID" : "f201409b-998d-417e-b5d9-e8d43d60d508",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "d1f399d9-f3ba-43f6-b0c7-716ab6c48eb9",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Chicken Salad",
       "shortDescription" : "Cabbage salad with carrots and shreded chicken",
       "longDescription" : "",
@@ -533,8 +536,8 @@
       "price" : 9.95,
       "category" : "salad"
     }, {
-      "itemID" : "8b51582f-7936-4866-920c-c88f919ef022",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "192fd1e8-f260-4203-a38c-66f0774f25bb",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Shrimp Salad",
       "shortDescription" : "Cabbage salad with carrots and shrimp",
       "longDescription" : "",
@@ -548,8 +551,8 @@
       "price" : 9.95,
       "category" : "salad"
     }, {
-      "itemID" : "909cd49d-b4c4-4316-94a7-64999ae4993c",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "ae2200fc-71ab-46b8-a78d-7f1d717439af",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Green Papaya Salad",
       "shortDescription" : "Green papaya, thai basil and tomato with a lime peanut fish sauce dressing",
       "longDescription" : "",
@@ -563,8 +566,8 @@
       "price" : 14.95,
       "category" : "appetizer"
     }, {
-      "itemID" : "11c01e82-bf86-49b0-b2e0-f2831796224f",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "66142287-4432-4e95-8155-15699d25b1f4",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Rice noodle salad",
       "shortDescription" : "Rice noodle, carrots, cucumber, scallion and cilantro servied with fish sauce dressing",
       "longDescription" : "",
@@ -578,8 +581,8 @@
       "price" : 7.95,
       "category" : "appetizer"
     }, {
-      "itemID" : "4297e7bf-75bf-4f15-a7c8-aeee85b4a6ef",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "60e1ccb4-23b9-44b5-8797-05458db069db",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "pho with everything",
       "shortDescription" : "Pho noodle soup with rare steak, flank, brisket, tendon and tripe",
       "longDescription" : "Pho noodle soup with rare steak, flank, brisket, tendon and tripe. The noodles are made from rice and there's a side dish of optional toppings.",
@@ -593,8 +596,8 @@
       "price" : 15.50,
       "category" : "noodle soups"
     }, {
-      "itemID" : "3fc62c36-7f40-4ed7-858b-4c4ffb1b0727",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "8caa3945-338e-4688-bf3e-b2c44f78c9ad",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Pho with rare steak",
       "shortDescription" : "Pho noodle soup with rare steak",
       "longDescription" : "Pho noodle soup with rare steak. The noodles are made from rice, the broth is made from beef bones and there's a side dish of optional toppings.",
@@ -608,8 +611,8 @@
       "price" : 15.50,
       "category" : "noodle soups"
     }, {
-      "itemID" : "7fa46545-0d83-4dc5-a7de-6f071a0e4832",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "0ce58355-c18e-4389-b647-6a4e6e05f2cc",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Pho with rare round and tendon",
       "shortDescription" : "Pho noodle soup with rare steak and tendon",
       "longDescription" : "Pho noodle soup with rare steak and tendon",
@@ -623,8 +626,8 @@
       "price" : 15.50,
       "category" : "noodle soups"
     }, {
-      "itemID" : "1bcae55a-a76a-45ff-8a53-c18463a3ecff",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "355722dc-edb0-4afd-b51e-177a86b1fec7",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Chicken Pho",
       "shortDescription" : "Chicken pho broth with rice noodles",
       "longDescription" : "",
@@ -638,8 +641,8 @@
       "price" : 15.50,
       "category" : "noodle soups"
     }, {
-      "itemID" : "6afea4fd-fb59-4440-a89d-41fd70eb351f",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "8739f940-b693-4ddf-a1ba-37f51751f986",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Seafood noodle soup",
       "shortDescription" : "Noodle soup with shrimp, imitation crabmeat, squid and fish cake",
       "longDescription" : "",
@@ -653,8 +656,8 @@
       "price" : 18.90,
       "category" : "noodle soups"
     }, {
-      "itemID" : "d46528e3-bad0-45df-bf22-d5db418cbc4e",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "890f6e10-629f-45a0-a0fa-11ddd0dd47ff",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Stir fry yellow noodles",
       "shortDescription" : "Egg noodles stir fried with bean sprouts, carrots, cucumber, garlic and ginger",
       "longDescription" : "",
@@ -668,8 +671,8 @@
       "price" : 18.30,
       "category" : "stir fry"
     }, {
-      "itemID" : "990731b0-d435-4a09-8534-94cffeca1cc2",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "abb06f12-9d00-489c-870f-dc8fab9a8ed2",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Pad Thai",
       "shortDescription" : "Classic Pad Thai noodles with chicken, bean sprouts, garlic chive and peanuts",
       "longDescription" : "",
@@ -683,8 +686,8 @@
       "price" : 17.90,
       "category" : "stir fry"
     }, {
-      "itemID" : "72c724a3-eaeb-4274-b478-23111c5a0699",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "f9c8c6c6-afbb-4101-8744-54c3929a752d",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Stir fry flat noodles",
       "shortDescription" : "Large flat rice noodles stir fried with chicken, carrots and bean sprouts",
       "longDescription" : "",
@@ -698,8 +701,8 @@
       "price" : 17.90,
       "category" : "stir fry"
     }, {
-      "itemID" : "2d42f273-1077-49a0-a6e5-c90409b5fa6d",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "51765b0e-41d8-4a96-a7b8-c35160c13611",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Curry Vegetable Medley",
       "shortDescription" : "Sauteed with onions, summer squash, mushrooms carrots, baby corn, snow peas and roasted peanuts",
       "longDescription" : "",
@@ -713,8 +716,8 @@
       "price" : 18.90,
       "category" : "stir fry"
     }, {
-      "itemID" : "e7b8ce7d-9aa7-40fc-8af8-699687d406d5",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "6843e6a2-3f64-447e-9484-3293c4450862",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Pork Sauteed with lemongrass",
       "shortDescription" : "Pork sauteed with sliced onions, scallions, red peppers and roasted peanuts",
       "longDescription" : "",
@@ -728,8 +731,8 @@
       "price" : 18.90,
       "category" : "stir fry"
     }, {
-      "itemID" : "686370e0-17f1-4be0-b23c-a4e29caec940",
-      "menuID" : "4ced8ab6-0a80-466b-8930-db41c8e28871",
+      "itemID" : "06964893-3323-49e7-9e76-ab8e0a6528bf",
+      "menuID" : "99d3f15e-526d-474a-a4cd-f0962733c167",
       "name" : "Chicken Sauteed with lemongrass",
       "shortDescription" : "Chicken sauteed with onions, ginger and roasted peanuts",
       "longDescription" : "",
@@ -755,18 +758,19 @@
     "name" : "dinner"
   } ]
 }, {
-  "storeID" : "def6350a-c0fe-4ce3-b6aa-1fcd39bac1e1",
+  "storeID" : "b553049f-c75b-45fb-95e7-c6ca71d00a86",
   "cafeID" : null,
   "storeName" : "Diner 99",
   "storeDescription" : "your favorite american dishes",
   "menus" : [ {
-    "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+    "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
+    "storeID" : "b553049f-c75b-45fb-95e7-c6ca71d00a86",
     "beginDate" : null,
     "endDate" : null,
     "menuType" : "dine-in",
     "items" : [ {
-      "itemID" : "7d61adac-7bb9-4a7a-a86b-907f68add119",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "73277361-bbce-4ac3-b634-b598a2adf445",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Chicken Noodle Soup",
       "shortDescription" : "Chicken breast, celery, carrots and rotini pasta",
       "longDescription" : "",
@@ -780,8 +784,8 @@
       "price" : 6.75,
       "category" : "soups"
     }, {
-      "itemID" : "1ddbab31-50f6-4043-a3e3-655c09a3f67f",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "9407b886-2cbf-476e-ab0a-31f111c1cdd8",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "New England Claim Chowder",
       "shortDescription" : "Quahog claims, potato and bacon in a creamy broth",
       "longDescription" : "",
@@ -795,8 +799,8 @@
       "price" : 7.99,
       "category" : "soups"
     }, {
-      "itemID" : "d7fd8acb-a942-4e58-b4ac-6b5f055ae77a",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "2a1021cd-4609-488e-a803-3aebf915381c",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Buffalo Wings",
       "shortDescription" : "8 buffalo wings with ranch dressing on the side",
       "longDescription" : "",
@@ -810,8 +814,8 @@
       "price" : 9.89,
       "category" : "appetizer"
     }, {
-      "itemID" : "4a81c881-edaf-4e0a-8356-60ea036a45da",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "61f4026e-b428-47d2-a18f-b2e6d1ac8025",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Dirty Fries",
       "shortDescription" : "Shoe string fries topped with cheese, bacon, garlic chips and paprika",
       "longDescription" : "",
@@ -825,8 +829,8 @@
       "price" : 9.99,
       "category" : "appetizer"
     }, {
-      "itemID" : "0244d1b3-d355-4d0b-84f4-9c9a7a801db1",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "944c4ef7-576e-41a1-bf0e-34082d2e9185",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Hashbrowns and 3 eggs",
       "shortDescription" : "Yukon gold potato hash with 3 eggs",
       "longDescription" : "",
@@ -840,8 +844,8 @@
       "price" : 11.99,
       "category" : "breakfast"
     }, {
-      "itemID" : "94734b6d-04d6-4ae2-8811-4904842b58d2",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "cd913948-b488-4668-9083-e2516f2c115d",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "3 eggs, sausage and 3 pancakes",
       "shortDescription" : "",
       "longDescription" : "",
@@ -855,8 +859,8 @@
       "price" : 13.89,
       "category" : "breakfast"
     }, {
-      "itemID" : "4ac98c31-d5cf-4d08-b95e-056c44c2882b",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "713588f6-232f-4af5-88de-b5f74f0e6b63",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "3 blueberry pancakes",
       "shortDescription" : "",
       "longDescription" : "",
@@ -870,8 +874,8 @@
       "price" : 8.89,
       "category" : "breakfast"
     }, {
-      "itemID" : "796e628b-75a2-4aec-9cab-30abeab7b05c",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "65825dc9-14e8-4a65-a8fa-56dc3716533f",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Reuben",
       "shortDescription" : "Corn beef, swiss, sauerkraut and mustard on rye",
       "longDescription" : "",
@@ -885,8 +889,8 @@
       "price" : 9.89,
       "category" : "sandwich"
     }, {
-      "itemID" : "2bc829e6-c4b7-467a-98a7-07547ea64f60",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "75fd9efb-6280-472a-a4c0-e105ddf8b22e",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Roast Beef",
       "shortDescription" : "Roast beef, mustard, cheddar, lettuce and kaiser bun",
       "longDescription" : "",
@@ -900,8 +904,8 @@
       "price" : 12.89,
       "category" : "sandwich"
     }, {
-      "itemID" : "48818486-05fd-4240-b81e-0cc8002bbcb7",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "e4acb6c6-c316-4f60-83e2-2dacb19c7dcb",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Roast Turkey",
       "shortDescription" : "Roast turkey breast, swiss, lettuce and tomato on kaiser bun",
       "longDescription" : "",
@@ -915,8 +919,8 @@
       "price" : 9.89,
       "category" : "sandwich"
     }, {
-      "itemID" : "b597b315-b6d4-48c7-8c98-864b22b29244",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "eaa1be2e-ee5d-4d7d-9081-518d8e5e385e",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "BLT",
       "shortDescription" : "Bacon, lettuce and tomato on rye",
       "longDescription" : "",
@@ -930,8 +934,8 @@
       "price" : 10.89,
       "category" : "sandwich"
     }, {
-      "itemID" : "9de26e7a-1226-43a9-b01f-3e64ee4aef44",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "451f4ade-711d-4b33-ba20-bf8104ccdb87",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Black forrest ham",
       "shortDescription" : "Black forrest ham, cheddar, lettuce, onion and tomato on kaiser bun",
       "longDescription" : "",
@@ -945,8 +949,8 @@
       "price" : 11.89,
       "category" : "sandwich"
     }, {
-      "itemID" : "9fe0db49-b0da-47cc-93c6-b122d2424a80",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "81222ef0-ca7e-48b9-bcf8-03cfb40214ed",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Classic burger",
       "shortDescription" : "1 beef patty, lettuce, tomato, onions, pickles and ketchup on kaiser bun",
       "longDescription" : "",
@@ -960,8 +964,8 @@
       "price" : 6.89,
       "category" : "burger"
     }, {
-      "itemID" : "130a38a3-e48f-4f6e-aeb9-4815b13d1bb2",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "e875b338-120d-40ef-94cd-21d4441f5f69",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Cheese burger",
       "shortDescription" : "1 beef patty, 2 slices of cheddar, lettuce, tomato, onions, pickles and ketchup on kaiser bun",
       "longDescription" : "",
@@ -975,8 +979,8 @@
       "price" : 7.89,
       "category" : "burger"
     }, {
-      "itemID" : "537b899f-8244-4363-9cd0-5673093f21b2",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "a30c4cac-0618-4230-a377-5af602366f75",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Baconator burger",
       "shortDescription" : "1 beef patty, 3 strips of bacon, lettuce, tomato, onions, pickles and ketchup on kaiser bun",
       "longDescription" : "",
@@ -990,8 +994,8 @@
       "price" : 10.89,
       "category" : "burger"
     }, {
-      "itemID" : "46414978-fbbb-437b-8f16-652df4f4e0b3",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "662b7d53-015e-4b78-b2e2-e9ccc3b4aae5",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Guacamole burger",
       "shortDescription" : "1 beef patty, guacamole, lettuce and tapatio sauce on kaiser bun",
       "longDescription" : "",
@@ -1005,8 +1009,8 @@
       "price" : 11.89,
       "category" : "burger"
     }, {
-      "itemID" : "a0721031-b3e4-47f3-a75c-abc03b7a0cb4",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "d2995c49-f366-4e64-a74d-516d2d5cca61",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Cheese Omelet",
       "shortDescription" : "2 egg omelette with cheddar",
       "longDescription" : "",
@@ -1020,8 +1024,8 @@
       "price" : 6.89,
       "category" : "omelet"
     }, {
-      "itemID" : "fbe4f94a-5db3-4e2d-8d46-1fb0c0da421e",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "a7e59dfd-362e-4c44-b49d-bbfc24b7c952",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Denver Omelet",
       "shortDescription" : "2 egg omelette with cheddar, ham, onion and bell peppers",
       "longDescription" : "",
@@ -1035,8 +1039,8 @@
       "price" : 8.89,
       "category" : "omelet"
     }, {
-      "itemID" : "c7b62d2a-3726-4b0f-9c71-a5f1d26b11a3",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "d21575ad-8032-4b11-b461-905578c57195",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Feta Spinach Omelet",
       "shortDescription" : "2 egg omelette with feta cheese and spinach",
       "longDescription" : "",
@@ -1050,8 +1054,8 @@
       "price" : 9.89,
       "category" : "omelet"
     }, {
-      "itemID" : "f99c1ead-6591-46e3-bfc9-a38b495a3e8d",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "d5c9d1cc-51df-4c3f-a772-3d67b6fc887e",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Tomato Omelet",
       "shortDescription" : "2 egg omelette with diced tomato and ham",
       "longDescription" : "",
@@ -1065,8 +1069,8 @@
       "price" : 8.89,
       "category" : "omelet"
     }, {
-      "itemID" : "5049059b-33dc-4ed2-9578-fc9f2fd62aa7",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "a713ae3c-b152-4ef3-9ce8-4ee4c8f93e25",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Cherrios",
       "shortDescription" : "Cherrios breakfast cereal",
       "longDescription" : "",
@@ -1080,8 +1084,8 @@
       "price" : 3.89,
       "category" : "breakfast"
     }, {
-      "itemID" : "65bfe2cf-241f-49c1-be13-9c7a095058ff",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "4bde3537-07be-4cfa-a65f-6e66c41aef27",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Rice Krispies",
       "shortDescription" : "Rice Krispies",
       "longDescription" : "",
@@ -1095,8 +1099,8 @@
       "price" : 3.89,
       "category" : "breakfast"
     }, {
-      "itemID" : "fc2daf7d-b181-4c8b-8abe-ed1a0f180e56",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "2aa41bbd-ae6e-41a1-a0ab-f6e987ff5191",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Chex",
       "shortDescription" : "Chex cereal",
       "longDescription" : "",
@@ -1110,8 +1114,8 @@
       "price" : 3.89,
       "category" : "breakfast"
     }, {
-      "itemID" : "46e553d3-92bd-4d01-9e68-36b215b8dbfb",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "0c05190f-062a-4d54-a7ea-445baa002b61",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Bagel",
       "shortDescription" : "Bagel flavors vary daily: plain, egg, everything",
       "longDescription" : "",
@@ -1125,8 +1129,8 @@
       "price" : 2.89,
       "category" : "breakfast"
     }, {
-      "itemID" : "a0225ffd-74af-4b91-8963-a56ee48c51b8",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "f5ef7571-c21b-4e97-9aed-39cb980f070e",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Hot Oatmeal",
       "shortDescription" : "Hot Oatmeal cereal",
       "longDescription" : "",
@@ -1140,8 +1144,8 @@
       "price" : 3.89,
       "category" : "breakfast"
     }, {
-      "itemID" : "5c38cb6a-9ebe-4000-8cac-d544f7bc33e5",
-      "menuID" : "b2fbfc33-99ed-4c0b-b7f1-4e5ab67f11e3",
+      "itemID" : "b0bd87b5-9011-4e26-a2bf-a72df1d9a8f2",
+      "menuID" : "db2b510d-ac97-4c21-aaa6-cfa332e97735",
       "name" : "Cream of Wheat",
       "shortDescription" : "Instant cream of wheat",
       "longDescription" : "",

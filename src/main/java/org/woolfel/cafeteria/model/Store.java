@@ -70,4 +70,9 @@ public class Store {
     public void setHours(List<OperatingHours> hours) {
         this.hours = hours;
     }
+
+    public void addMenu(Menu m) {
+        m.setStoreID(this.storeID);
+        this.menus.add(m);
+    }
 }

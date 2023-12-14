@@ -94,7 +94,7 @@ public class GenerateCafeteria {
         Menu m = new Menu();
         m.setMenuID(UUID.randomUUID());
         m.setMenuType("dine-in");
-        italian.getMenus().add(m);
+        italian.addMenu(m);
 
         MenuItem i1 = new MenuItem();
         i1.setItemID(UUID.randomUUID());
@@ -278,7 +278,7 @@ public class GenerateCafeteria {
         Menu m = new Menu();
         m.setMenuID(UUID.randomUUID());
         m.setMenuType("dine-in");
-        thai.getMenus().add(m);
+        thai.addMenu(m);
 
         MenuItem i1 = new MenuItem();
         i1.setItemID(UUID.randomUUID());
@@ -475,7 +475,7 @@ public class GenerateCafeteria {
         Menu m = new Menu();
         m.setMenuID(UUID.randomUUID());
         m.setMenuType("dine-in");
-        vietnam.getMenus().add(m);
+        vietnam.addMenu(m);
 
         MenuItem i1 = new MenuItem();
         i1.setItemID(UUID.randomUUID());
@@ -770,7 +770,7 @@ public class GenerateCafeteria {
         Menu m = new Menu();
         m.setMenuID(UUID.randomUUID());
         m.setMenuType("dine-in");
-        diner.getMenus().add(m);
+        diner.addMenu(m);
 
         MenuItem i1 = new MenuItem();
         i1.setItemID(UUID.randomUUID());
