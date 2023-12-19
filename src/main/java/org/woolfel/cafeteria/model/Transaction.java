@@ -2,6 +2,7 @@ package org.woolfel.cafeteria.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
@@ -13,12 +14,12 @@ public class Transaction {
     private UUID transactionID;
     private List<MenuItem> items = new ArrayList<>();
     private String paymentType;
-    private LocalDate timestamp;
+    private LocalDateTime timestamp;
     private UUID cafeID;
     // The register that processed the transaction
     private UUID registerID;
     // the cashier employee ID
-    private String employID;
+    private UUID employID;
     private BigDecimal subtotal = new BigDecimal("0.0");
     private BigDecimal tax = new BigDecimal("0.0");
     private BigDecimal total = new BigDecimal("0.0");
@@ -48,11 +49,11 @@ public class Transaction {
         this.paymentType = paymentType;
     }
 
-    public LocalDate getTimestamp() {
+    public LocalDateTime getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(LocalDate timestamp) {
+    public void setTimestamp(LocalDateTime timestamp) {
         this.timestamp = timestamp;
     }
 
@@ -72,11 +73,11 @@ public class Transaction {
         this.registerID = registerID;
     }
 
-    public String getEmployID() {
+    public UUID getEmployID() {
         return employID;
     }
 
-    public void setEmployID(String employID) {
+    public void setEmployID(UUID employID) {
         this.employID = employID;
     }
 

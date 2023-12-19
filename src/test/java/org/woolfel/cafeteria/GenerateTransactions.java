@@ -6,8 +6,15 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.woolfel.cafeteria.model.*;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
+import java.math.BigDecimal;
+import java.math.MathContext;
+import java.math.RoundingMode;
+import java.text.DateFormat;
+import java.text.FieldPosition;
+import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.util.*;
 
 /**
  * Simple class to generate transactions that use the cafeteria menu data.
@@ -23,8 +30,22 @@ public class GenerateTransactions {
     private ObjectMapper mapper = new ObjectMapper();
     private int studentCount = 25000; // UMass Amherst has 28K students, default to 25K
 
+    private int employeeIndex = 0;
+    private int registerIndex = 0;
+    private Random ran = new Random();
+    private BigDecimal salesTax = new BigDecimal("0.0625");
+    private LocalDateTime june5monday = null;
+    private LocalDateTime june5mondayLunch = null;
+    private LocalDateTime june5mondayDinner = null;
     public GenerateTransactions(){
         mapper.registerModule(new JavaTimeModule());
+        try {
+            june5monday = LocalDateTime.parse("2023-05-03T07:00:00");
+            june5mondayLunch = LocalDateTime.parse("2023-05-03T11:00:00");
+            june5mondayDinner = LocalDateTime.parse("2023-05-03T16:00:00");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void loadData() {
@@ -67,17 +88,122 @@ public class GenerateTransactions {
         generateLunch(lunchcount, trxs);
         int dinnercount = (int)(studentCount * 0.28);
         generateDinner(dinnercount, trxs);
+        try {
+            mapper.writeValue(new File("samples/tranx.json"), trxs);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public UUID getEmployeeID() {
+        UUID eid = emps.get(employeeIndex).getEmployeeID();
+        if (employeeIndex < (emps.size() - 1)) {
+            employeeIndex++;
+        } else if (employeeIndex == (emps.size() - 1)) {
+            employeeIndex = 0;
+        }
+        return eid;
+    }
+
+    public UUID getRegisterID() {
+        UUID rid = regs.get(registerIndex).getRegisterID();
+        if (registerIndex < (regs.size() - 1)) {
+            registerIndex++;
+        } else if (registerIndex == (regs.size() - 1)) {
+            registerIndex = 0;
+        }
+        return rid;
+    }
+
+    public void getBreakfastItems(Transaction trx) {
+        int count = 1 + ran.nextInt(3);
+        ArrayList<MenuItem> orderitems = new ArrayList<>(count);
+        BigDecimal subtot = new BigDecimal("0.0");
+        for (int i =0; i < count; i++) {
+            int b = ran.nextInt(breakfastItems.size()) - 1;
+            if (b < 0) {
+                b = 0;
+            }
+            MenuItem mi = breakfastItems.get(b);
+            orderitems.add(mi);
+            subtot = subtot.add(mi.getPrice());
+        }
+        subtot = subtot.setScale(2, RoundingMode.DOWN);
+        trx.setItems(orderitems);
+        trx.setSubtotal(subtot);
+        BigDecimal stax = subtot.multiply(salesTax);
+        stax = stax.setScale(2, RoundingMode.DOWN);
+        trx.setTax(stax);
+        BigDecimal total = subtot.add(trx.getTax());
+        total = total.setScale(2, RoundingMode.DOWN);
+        trx.setTotal(total);
+    }
+
+    public void getLunchItems(Transaction trx) {
+        int count = 1 + ran.nextInt(4);
+        ArrayList<MenuItem> orderitems = new ArrayList<>(count);
+        BigDecimal subtot = new BigDecimal("0.0");
+        for (int i =0; i < count; i++) {
+            int b = ran.nextInt(items.size()) - 1;
+            if (b < 0) {
+                b = 0;
+            }
+            MenuItem mi = items.get(b);
+            orderitems.add(mi);
+            subtot = subtot.add(mi.getPrice());
+        }
+        subtot = subtot.setScale(2, RoundingMode.DOWN);
+        trx.setItems(orderitems);
+        trx.setSubtotal(subtot);
+        BigDecimal stax = subtot.multiply(salesTax);
+        stax = stax.setScale(2, RoundingMode.DOWN);
+        trx.setTax(stax);
+        BigDecimal total = subtot.add(trx.getTax());
+        total = total.setScale(2, RoundingMode.DOWN);
+        trx.setTotal(total);
     }
 
     /**
      * Only the Diner has breakfast items
      */
     public void generateBreakfast(int studentCount, List<Transaction> data) {
-
+        LocalDateTime paytime = june5monday.plusSeconds(ran.nextInt(60));
+        for (int i=0; i < studentCount; i++) {
+            Transaction trx = new Transaction();
+            trx.setCafeID(cafe.getCafeteriaID());
+            trx.setTransactionID(UUID.randomUUID());
+            trx.setEmployID(getEmployeeID());
+            trx.setRegisterID(getRegisterID());
+            getBreakfastItems(trx);
+            paytime = paytime.plusSeconds(ran.nextInt(35));
+            if (i % 2 != 0) {
+                trx.setPaymentType("mealplan");
+            } else {
+                trx.setPaymentType("cc");
+            }
+            trx.setTimestamp(paytime);
+            data.add(trx);
+        }
     }
 
     public void generateLunch(int studentCount, List<Transaction> data) {
-
+        LocalDateTime paytime = june5mondayLunch.plusSeconds(ran.nextInt(10));
+        for (int i=0; i < studentCount; i++) {
+            Transaction trx = new Transaction();
+            trx.setCafeID(cafe.getCafeteriaID());
+            trx.setTransactionID(UUID.randomUUID());
+            trx.setEmployID(getEmployeeID());
+            trx.setRegisterID(getRegisterID());
+            getLunchItems(trx);
+            paytime = paytime.plusSeconds(ran.nextInt(15));
+            if (i % 2 != 0) {
+                trx.setPaymentType("mealplan");
+            } else {
+                trx.setPaymentType("cc");
+            }
+            trx.setTimestamp(paytime);
+            data.add(trx);
+        }
     }
 
     public void generateDinner(int studentCount, List<Transaction> data) {
