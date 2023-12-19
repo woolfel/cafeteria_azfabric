@@ -37,6 +37,7 @@ public class GenerateTransactions {
     private LocalDateTime june5monday = null;
     private LocalDateTime june5mondayLunch = null;
     private LocalDateTime june5mondayDinner = null;
+    public int days = 14;
     public GenerateTransactions(){
         mapper.registerModule(new JavaTimeModule());
         try {
@@ -78,16 +79,26 @@ public class GenerateTransactions {
     }
 
     /**
-     * Generate transactions for number of days going back from today
+     * Generate transactions for n days. to change from the default
+     * 14 days, set it to the desired days. Logic is pretty simple
+     * right now and doesn't take into account weekends.
+     *
+     * In reality, weekends should have no transactions since it
+     * is probably closed.
      */
     public void generateTransactions() {
-        int bkcount = (int)(studentCount * 0.13);
         List<Transaction> trxs = new ArrayList<>();
-        generateBreakfast(bkcount, trxs);
-        int lunchcount = (int)(studentCount * 0.65);
-        generateLunch(lunchcount, trxs);
-        int dinnercount = (int)(studentCount * 0.28);
-        generateDinner(dinnercount, trxs);
+        for (int d=0; d < days; d++) {
+            june5monday = june5monday.plusDays(d * 1);
+            june5mondayLunch = june5mondayLunch.plusDays(d * 1);
+            june5mondayDinner = june5mondayDinner.plusDays(d * 1);
+            int bkcount = (int)(studentCount * 0.13);
+            generateBreakfast(bkcount, trxs);
+            int lunchcount = (int)(studentCount * 0.65);
+            generateLunch(lunchcount, trxs);
+            int dinnercount = (int)(studentCount * 0.28);
+            generateDinner(dinnercount, trxs);
+        }
         try {
             mapper.writeValue(new File("samples/tranx.json"), trxs);
         } catch (Exception e) {
@@ -206,8 +217,48 @@ public class GenerateTransactions {
         }
     }
 
-    public void generateDinner(int studentCount, List<Transaction> data) {
+    public void getDinnerItems(Transaction trx) {
+        int count = 1 + ran.nextInt(3);
+        ArrayList<MenuItem> orderitems = new ArrayList<>(count);
+        BigDecimal subtot = new BigDecimal("0.0");
+        for (int i =0; i < count; i++) {
+            int b = ran.nextInt(items.size()) - 1;
+            if (b < 0) {
+                b = 0;
+            }
+            MenuItem mi = items.get(b);
+            orderitems.add(mi);
+            subtot = subtot.add(mi.getPrice());
+        }
+        subtot = subtot.setScale(2, RoundingMode.DOWN);
+        trx.setItems(orderitems);
+        trx.setSubtotal(subtot);
+        BigDecimal stax = subtot.multiply(salesTax);
+        stax = stax.setScale(2, RoundingMode.DOWN);
+        trx.setTax(stax);
+        BigDecimal total = subtot.add(trx.getTax());
+        total = total.setScale(2, RoundingMode.DOWN);
+        trx.setTotal(total);
+    }
 
+    public void generateDinner(int studentCount, List<Transaction> data) {
+        LocalDateTime paytime = june5mondayDinner.plusSeconds(ran.nextInt(10));
+        for (int i=0; i < studentCount; i++) {
+            Transaction trx = new Transaction();
+            trx.setCafeID(cafe.getCafeteriaID());
+            trx.setTransactionID(UUID.randomUUID());
+            trx.setEmployID(getEmployeeID());
+            trx.setRegisterID(getRegisterID());
+            getLunchItems(trx);
+            paytime = paytime.plusSeconds(ran.nextInt(15));
+            if (i % 2 != 0) {
+                trx.setPaymentType("mealplan");
+            } else {
+                trx.setPaymentType("cc");
+            }
+            trx.setTimestamp(paytime);
+            data.add(trx);
+        }
     }
 
     public static void main(String[] args) {
